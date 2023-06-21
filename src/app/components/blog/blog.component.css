@@ -1,0 +1,25 @@
+.blog .container .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 4rem 0;
+    padding: 2rem;
+    border-bottom: var(--border);
+}
+
+.blog .container .box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog .container .box .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.blog .container h3 {
+    margin: 1rem 0;
+}

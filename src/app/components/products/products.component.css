@@ -1,0 +1,22 @@
+.products .container .box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.products .container .box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.products .container .box .category {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.products .container .col h3 {
+    margin: 1rem 0;
+}

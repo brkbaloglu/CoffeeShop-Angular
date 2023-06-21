@@ -1,0 +1,20 @@
+.review .container {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+.review .container .box {
+    margin: 0 4rem;
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+}
+
+.review .container .box img {
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+}

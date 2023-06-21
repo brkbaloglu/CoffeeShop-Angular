@@ -1,0 +1,12 @@
+<section class="store">
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17346.127762208078!2d30.524338953961365!3d39.77577952614951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1687304888755!5m2!1str!2str" width="600" height="450" style="border:0;"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="text">
+            <h1 class="heading">Store <span class="heading-mark">Locations</span></h1>
+            <div class="box" *ngFor="let item of storeitems">
+                <h3>{{item.location}}</h3>
+            </div>
+        </div>
+    </div>
+</section>

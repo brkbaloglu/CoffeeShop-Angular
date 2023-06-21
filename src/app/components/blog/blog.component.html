@@ -1,0 +1,16 @@
+<section class="blog">
+    <h1 class="heading"> Our <span class="heading-mark">Blog</span></h1>
+    <div class="container">
+        <div class="box" *ngFor="let item of blogitems">
+            <img src="{{item.blogimg}}" alt="">
+            <div class="cont">
+                <h3 class="blog-heading">{{item.blogheading}}</h3>
+                <h3 class="blog-subject">{{item.blogsubject}}</h3>
+                <h3 class="blog-content">{{item.blogcontent}}</h3>
+                <h3 class="blog-published-date">{{item.publisheddate}}</h3>
+                <a href="#" class="btn">See details</a>
+            </div>
+
+        </div>
+    </div>
+</section>

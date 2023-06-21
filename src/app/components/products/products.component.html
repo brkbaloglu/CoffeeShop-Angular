@@ -1,0 +1,15 @@
+<section class="products">
+    <h1 class="heading"> Our <span class="heading-mark">Products</span></h1>
+
+    <div class="container">
+        <div class="box" *ngFor="let item of productItems">
+            <img src="{{item.itemImg}}" alt="">
+            <h3>{{item.itemDetails}}</h3>
+            <div class="col">
+                <h3>Name: {{item.itemName}}</h3>
+                <h3>Price: {{item.itemPrice}}</h3>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+<section class="team">
+    <h1 class="heading"> Our <span class="heading-mark">Team</span></h1>
+
+    <div class="container">
+        <div class="box" *ngFor="let item of teamitems">
+            <img src="{{item.img}}" alt="">
+            <div class="col">
+                <h3>Name: {{item.name}}</h3>
+                <h3>Phone: {{item.phone}}</h3>
+                <h3>Age: {{item.age}}</h3>
+                <h3>Country: {{item.country}}</h3>
+            </div>
+        </div>
+    </div>
+</section>

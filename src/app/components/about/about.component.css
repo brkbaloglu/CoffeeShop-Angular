@@ -1,0 +1,18 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+
+.about img {
+    height: 400px;
+}
+
+.about .container .heading {
+    margin-bottom: 10rem;
+}
+
+.about .container p {
+    margin: 4rem;
+}

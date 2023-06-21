@@ -1,0 +1,33 @@
+.home img {
+    width: 100%;
+    height: 75vh;
+}
+
+.home .container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    height: 150px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.home .container h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.home .container a {
+    background-color: var(--coffee);
+    color: var(--white);
+    text-decoration: none;
+    padding: .5rem;
+    margin-top: 10px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+.home .container a:hover {
+    color: var(--coffee);
+    background: var(--white);
+}
